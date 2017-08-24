@@ -1,0 +1,17 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "Simple movie app",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "author": "Said Mançouri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "^4.11.7"
+  }
+}
